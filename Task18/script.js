@@ -57,10 +57,12 @@
 
 // Ques 6
 // Write an asynchronous function using async-await  to fetch data from an API (you can use the JSONPlaceholder API) and log the result.
+async function Fetch() {
+    const data = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    console.log(data);
 
-// fetch('https://jsonplaceholder.typicode.com/todos/1')
-// .then(response => response.json())
-// .then(json => console.log(json))
+}
+Fetch()
 
 
 // Ques 7
