@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  nav.nav1 {
+    background-color: #007bff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  ul.nav2 {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav2 li {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav2 li:hover {
+    text-decoration: underline;
+  }
+  
+  #main_page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+  }
+  
+  #left_sec, #rightdiv {
+    width: 48%;
+  }
+  
+  #left_sec {
+    margin-right: 4%;
+  }
+  
+  .shoeBox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .shoe-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .priceCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .Addtocart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Addtocart:hover {
+    background-color: #0056b3;
+  }
+  
+  #rightdiv {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .cart-details {
+    flex-grow: 1;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .quantity-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  h3, h4 {
+    color: #333;
+  }
+  
